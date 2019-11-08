@@ -37,20 +37,102 @@ class ViewController: UIViewController {
     
     @IBAction func makeMove(_ sender: UIButton) {
         
+        switch sender.tag {
+        case 0 :
         counter += 1
         if counter % 2 == 0 {
           sender.setBackgroundImage(UIImage(named: "x"), for: .normal)
             print("The 1st part worked.")
-        } else if counter % 2 == 1 { sender.setBackgroundImage(UIImage(named: "blankSpace"), for: .normal)}
-        print("The second part worked")
-        
-        
-        
+        } else if counter % 2 == 1 { sender.setBackgroundImage(UIImage(named: "o"), for: .normal)
+            print("The second part worked")
+            print("Counter: \(counter)")
+            }
+        case 1 :
+        counter += 1
+        if counter % 2 == 0 {
+          sender.setBackgroundImage(UIImage(named: "x"), for: .normal)
+            print("The 1st part worked.")
+        } else if counter % 2 == 1 { sender.setBackgroundImage(UIImage(named: "o"), for: .normal)
+            print("The second part worked")
+            print("Counter: \(counter)")
+            }
+        case 2:
+            counter += 1
+            if counter % 2 == 0 {
+              sender.setBackgroundImage(UIImage(named: "x"), for: .normal)
+                print("The 1st part worked.")
+            } else if counter % 2 == 1 { sender.setBackgroundImage(UIImage(named: "o"), for: .normal)
+                print("The second part worked")
+                print("Counter: \(counter)")
+                }
+        case 3 :
+            counter += 1
+            if counter % 2 == 0 {
+              sender.setBackgroundImage(UIImage(named: "x"), for: .normal)
+                print("The 1st part worked.")
+            } else if counter % 2 == 1 { sender.setBackgroundImage(UIImage(named: "o"), for: .normal)
+                print("The second part worked")
+                print("Counter: \(counter)")
+                }
+        case 4 : counter += 1
+        if counter % 2 == 0 {
+          sender.setBackgroundImage(UIImage(named: "x"), for: .normal)
+            print("The 1st part worked.")
+        } else if counter % 2 == 1 { sender.setBackgroundImage(UIImage(named: "o"), for: .normal)
+            print("The second part worked")
+            print("Counter: \(counter)")
+            }
+        case 5:
+            counter += 1
+            if counter % 2 == 0 {
+              sender.setBackgroundImage(UIImage(named: "x"), for: .normal)
+                print("The 1st part worked.")
+            } else if counter % 2 == 1 { sender.setBackgroundImage(UIImage(named: "o"), for: .normal)
+                print("The second part worked")
+                print("Counter: \(counter)")
+                }
+        case 6 :
+            counter += 1
+            if counter % 2 == 0 {
+              sender.setBackgroundImage(UIImage(named: "x"), for: .normal)
+                print("The 1st part worked.")
+            } else if counter % 2 == 1 { sender.setBackgroundImage(UIImage(named: "o"), for: .normal)
+                print("The second part worked")
+                print("Counter: \(counter)")
+                }
+        case 7 :
+            counter += 1
+            if counter % 2 == 0 {
+              sender.setBackgroundImage(UIImage(named: "x"), for: .normal)
+                print("The 1st part worked.")
+            } else if counter % 2 == 1 { sender.setBackgroundImage(UIImage(named: "o"), for: .normal)
+                print("The second part worked")
+                print("Counter: \(counter)")
+                }
+        case 8 :
+            counter += 1
+            if counter % 2 == 0 {
+              sender.setBackgroundImage(UIImage(named: "x"), for: .normal)
+                print("The 1st part worked.")
+            } else if counter % 2 == 1 { sender.setBackgroundImage(UIImage(named: "o"), for: .normal)
+                print("The second part worked")
+                print("Counter: \(counter)")
+                }
+        case 9 :
+            counter += 1
+        if counter % 2 == 0 {
+          sender.setBackgroundImage(UIImage(named: "x"), for: .normal)
+            print("The 1st part worked.")
+        } else if counter % 2 == 1 { sender.setBackgroundImage(UIImage(named: "o"), for: .normal)
+            print("The second part worked")
+            print("Counter: \(counter)")
+            }
+            
+        default:
+            print("Not a valid button")
         
     }
-   
-        
-
 
 }
 
+}
